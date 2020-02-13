@@ -20,6 +20,14 @@ const NoVulnerability1 = (req, res) => {
     });
 }
 
+const Vulnerability8888 = (req, res) => {
+    var user = req.params.user;
+    var respond = `
+        <h1>Hi, ${user}</h1>
+    `
+    res.send(respond);
+}
+
 const NoVulnerability2 = (req, res) => {
     var accept = req.params.accept ? true : false;
     if(accept){
