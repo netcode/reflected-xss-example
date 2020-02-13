@@ -20,6 +20,14 @@ const NoVulnerability1 = (req, res) => {
     });
 }
 
+const Vulnerability87897697000000000 = (req, res) => {
+    var user = req.params.user;
+    var respond = `
+        <h1>Hi, ${user}</h1>
+    `
+    res.send(respond);
+}
+
 
 const Vulnerability87897697 = (req, res) => {
     var user = req.params.user;
