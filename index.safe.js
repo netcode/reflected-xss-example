@@ -26,6 +26,8 @@ const Vulnerability31ku46129746 = (req, res) => {
         <h1>Hi, ${user}</h1>
     `
     res.send(respond);
+    
+    
 }
 
 
